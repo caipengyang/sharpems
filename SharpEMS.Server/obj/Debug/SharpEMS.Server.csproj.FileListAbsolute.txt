@@ -1,0 +1,11 @@
+E:\ShartEMS\SharpEMS.Server\bin\SharpEMS.Server.dll.config
+E:\ShartEMS\SharpEMS.Server\bin\SharpEMS.Server.dll
+E:\ShartEMS\SharpEMS.Server\bin\SharpEMS.Server.pdb
+E:\ShartEMS\SharpEMS.Server\obj\Debug\SharpEMS.Server.csprojResolveAssemblyReference.cache
+E:\ShartEMS\SharpEMS.Server\obj\Debug\SharpEMS.Server.dll
+E:\ShartEMS\SharpEMS.Server\obj\Debug\SharpEMS.Server.pdb
+E:\SharpEMS\SharpEMS.Server\bin\SharpEMS.Server.dll.config
+E:\SharpEMS\SharpEMS.Server\bin\SharpEMS.Server.dll
+E:\SharpEMS\SharpEMS.Server\bin\SharpEMS.Server.pdb
+E:\SharpEMS\SharpEMS.Server\obj\Debug\SharpEMS.Server.dll
+E:\SharpEMS\SharpEMS.Server\obj\Debug\SharpEMS.Server.pdb

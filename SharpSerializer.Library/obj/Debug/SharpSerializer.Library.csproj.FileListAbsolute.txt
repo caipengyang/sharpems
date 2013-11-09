@@ -1,0 +1,10 @@
+C:\Users\YOGA13\Desktop\sharpserializer-d86ec3348f25\sharpserializer_d86ec3348f25\SharpSerializer.Library\bin\Debug\Polenter.SharpSerializer.XML
+C:\Users\YOGA13\Desktop\sharpserializer-d86ec3348f25\sharpserializer_d86ec3348f25\SharpSerializer.Library\bin\Debug\Polenter.SharpSerializer.dll
+C:\Users\YOGA13\Desktop\sharpserializer-d86ec3348f25\sharpserializer_d86ec3348f25\SharpSerializer.Library\bin\Debug\Polenter.SharpSerializer.pdb
+C:\Users\YOGA13\Desktop\sharpserializer-d86ec3348f25\sharpserializer_d86ec3348f25\SharpSerializer.Library\obj\Debug\Polenter.SharpSerializer.dll
+C:\Users\YOGA13\Desktop\sharpserializer-d86ec3348f25\sharpserializer_d86ec3348f25\SharpSerializer.Library\obj\Debug\Polenter.SharpSerializer.pdb
+E:\SharpEMS\SharpSerializer.Library\bin\Debug\Polenter.SharpSerializer.XML
+E:\SharpEMS\SharpSerializer.Library\bin\Debug\Polenter.SharpSerializer.dll
+E:\SharpEMS\SharpSerializer.Library\bin\Debug\Polenter.SharpSerializer.pdb
+E:\SharpEMS\SharpSerializer.Library\obj\Debug\Polenter.SharpSerializer.dll
+E:\SharpEMS\SharpSerializer.Library\obj\Debug\Polenter.SharpSerializer.pdb

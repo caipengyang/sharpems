@@ -1,0 +1,9 @@
+E:\ShartEMS\SharpEMS.SuperSocket\bin\Debug\SharpEMS.SuperSocket.dll
+E:\ShartEMS\SharpEMS.SuperSocket\bin\Debug\SharpEMS.SuperSocket.pdb
+E:\ShartEMS\SharpEMS.SuperSocket\obj\Debug\SharpEMS.SuperSocket.csprojResolveAssemblyReference.cache
+E:\ShartEMS\SharpEMS.SuperSocket\obj\Debug\SharpEMS.SuperSocket.dll
+E:\ShartEMS\SharpEMS.SuperSocket\obj\Debug\SharpEMS.SuperSocket.pdb
+E:\SharpEMS\SharpEMS.SuperSocket\bin\Debug\SharpEMS.SuperSocket.dll
+E:\SharpEMS\SharpEMS.SuperSocket\bin\Debug\SharpEMS.SuperSocket.pdb
+E:\SharpEMS\SharpEMS.SuperSocket\obj\Debug\SharpEMS.SuperSocket.dll
+E:\SharpEMS\SharpEMS.SuperSocket\obj\Debug\SharpEMS.SuperSocket.pdb
