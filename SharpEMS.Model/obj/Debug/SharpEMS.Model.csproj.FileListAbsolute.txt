@@ -14,11 +14,3 @@ E:\ShartEMS\SharpEMS.Model\bin\Debug\Mono.Cecil.Pdb.dll
 E:\ShartEMS\SharpEMS.Model\bin\Debug\nunit.framework.dll
 E:\ShartEMS\SharpEMS.Model\obj\Debug\SharpEMS.Model.exe
 E:\ShartEMS\SharpEMS.Model\bin\Debug\SharpEMS.Model.exe.config
-E:\SharpEMS\SharpEMS.Model\bin\Debug\SharpEMS.Model.exe
-E:\SharpEMS\SharpEMS.Model\bin\Debug\SharpEMS.Model.pdb
-E:\SharpEMS\SharpEMS.Model\bin\Debug\SqliteORM.dll
-E:\SharpEMS\SharpEMS.Model\bin\Debug\System.Data.SQLite.dll
-E:\SharpEMS\SharpEMS.Model\bin\Debug\SqliteORM.pdb
-E:\SharpEMS\SharpEMS.Model\obj\Debug\SharpEMS.Model.csprojResolveAssemblyReference.cache
-E:\SharpEMS\SharpEMS.Model\obj\Debug\SharpEMS.Model.exe
-E:\SharpEMS\SharpEMS.Model\obj\Debug\SharpEMS.Model.pdb

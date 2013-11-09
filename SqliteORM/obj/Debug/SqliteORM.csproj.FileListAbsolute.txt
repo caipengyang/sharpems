@@ -4,8 +4,3 @@ C:\Users\YOGA13\Desktop\sqliteorm-23567\SqliteORM\bin\Debug\System.Data.SQLite.d
 C:\Users\YOGA13\Desktop\sqliteorm-23567\SqliteORM\obj\Debug\SqliteORM.csprojResolveAssemblyReference.cache
 C:\Users\YOGA13\Desktop\sqliteorm-23567\SqliteORM\obj\Debug\SqliteORM.dll
 C:\Users\YOGA13\Desktop\sqliteorm-23567\SqliteORM\obj\Debug\SqliteORM.pdb
-E:\SharpEMS\SqliteORM\bin\Debug\SqliteORM.dll
-E:\SharpEMS\SqliteORM\bin\Debug\SqliteORM.pdb
-E:\SharpEMS\SqliteORM\bin\Debug\System.Data.SQLite.dll
-E:\SharpEMS\SqliteORM\obj\Debug\SqliteORM.dll
-E:\SharpEMS\SqliteORM\obj\Debug\SqliteORM.pdb

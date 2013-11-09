@@ -3,7 +3,3 @@ E:\ShartEMS\SharpEMS.Util\bin\Debug\SharpEMS.Util.pdb
 E:\ShartEMS\SharpEMS.Util\obj\Debug\SharpEMS.Util.csprojResolveAssemblyReference.cache
 E:\ShartEMS\SharpEMS.Util\obj\Debug\SharpEMS.Util.dll
 E:\ShartEMS\SharpEMS.Util\obj\Debug\SharpEMS.Util.pdb
-E:\SharpEMS\SharpEMS.Util\bin\Debug\SharpEMS.Util.dll
-E:\SharpEMS\SharpEMS.Util\bin\Debug\SharpEMS.Util.pdb
-E:\SharpEMS\SharpEMS.Util\obj\Debug\SharpEMS.Util.dll
-E:\SharpEMS\SharpEMS.Util\obj\Debug\SharpEMS.Util.pdb
