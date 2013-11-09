@@ -1,0 +1,13 @@
+d:\用户目录\documents\visual studio 2012\Projects\ShartEMS\ShartEMS\bin\Debug\ShartEMS.exe.config
+D:\用户目录\Documents\Visual Studio 2012\Projects\ShartEMS\ShartEMS\bin\Debug\ShartEMS.exe
+D:\用户目录\Documents\Visual Studio 2012\Projects\ShartEMS\ShartEMS\bin\Debug\ShartEMS.pdb
+D:\用户目录\Documents\Visual Studio 2012\Projects\ShartEMS\ShartEMS\obj\Debug\ShartEMS.csprojResolveAssemblyReference.cache
+D:\用户目录\Documents\Visual Studio 2012\Projects\ShartEMS\ShartEMS\obj\Debug\MainWindow.baml
+D:\用户目录\Documents\Visual Studio 2012\Projects\ShartEMS\ShartEMS\obj\Debug\MainWindow.g.cs
+D:\用户目录\Documents\Visual Studio 2012\Projects\ShartEMS\ShartEMS\obj\Debug\App.g.cs
+D:\用户目录\Documents\Visual Studio 2012\Projects\ShartEMS\ShartEMS\obj\Debug\ShartEMS_MarkupCompile.cache
+D:\用户目录\Documents\Visual Studio 2012\Projects\ShartEMS\ShartEMS\obj\Debug\ShartEMS.g.resources
+D:\用户目录\Documents\Visual Studio 2012\Projects\ShartEMS\ShartEMS\obj\Debug\ShartEMS.Properties.Resources.resources
+D:\用户目录\Documents\Visual Studio 2012\Projects\ShartEMS\ShartEMS\obj\Debug\ShartEMS.csproj.GenerateResource.Cache
+D:\用户目录\Documents\Visual Studio 2012\Projects\ShartEMS\ShartEMS\obj\Debug\ShartEMS.exe
+D:\用户目录\Documents\Visual Studio 2012\Projects\ShartEMS\ShartEMS\obj\Debug\ShartEMS.pdb
