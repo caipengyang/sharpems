@@ -1,1 +1,0 @@
-﻿<%@ ServiceHost Language="C#" Debug="true" Service="SharpEMS.Server.SharpService" CodeBehind="SharpService.svc.cs" %>
