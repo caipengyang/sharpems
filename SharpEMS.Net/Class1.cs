@@ -1,4 +1,5 @@
 ﻿using SuperSocket.SocketBase;
+using SuperSocket.SocketEngine;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,38 +10,48 @@ namespace SharpEMS.Net
 {
     public class Class1
     {
-        public static void Main(string[] args)
+        static void Main(string[] args)
         {
-            var appServer = new SharpServer();
-            if(!appServer.Setup(2012))
+            Console.WriteLine("Press any key to start the server!");
+
+            Console.ReadKey();
+            Console.WriteLine();
+
+            var bootstrap = BootstrapFactory.CreateBootstrap();
+
+            if (!bootstrap.Initialize())
             {
-                Console.WriteLine("setup server failed.");
+                Console.WriteLine("Failed to initialize!");
                 Console.ReadKey();
                 return;
             }
 
-            appServer.NewSessionConnected += appServer_NewSessionConnected;
+            var result = bootstrap.Start();
 
-            //appServer.NewRequestReceived += appServer_NewRequestReceived;
+            Console.WriteLine("Start result: {0}!", result);
 
-            if(!appServer.Start())
+            if (result == StartResult.Failed)
             {
-                Console.WriteLine("start server failed.");
+                Console.WriteLine("Failed to start!");
                 Console.ReadKey();
                 return;
             }
 
-            while(Console.ReadLine().ToUpper() != "EXIT")
+            Console.WriteLine("Press key 'q' to stop it!");
+
+            while (Console.ReadKey().KeyChar != 'q')
             {
-
+                Console.WriteLine();
+                continue;
             }
-            Console.WriteLine("stop server.");
-            appServer.Stop();
-        }
 
-        static void appServer_NewSessionConnected(SharpSession session)
-        {
-            Console.WriteLine("client connected.");
+            Console.WriteLine();
+
+            //Stop the appServer
+            bootstrap.Stop();
+
+            Console.WriteLine("The server was stopped!");
+            Console.ReadKey();
         }
     }
 }

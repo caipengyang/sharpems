@@ -43,22 +43,50 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="ext\Config\log4net.config" />
-    <None Include="ext\Config\log4net.unix.config" />
+    <None Include="ext\Config\log4net.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="ext\Config\log4net.unix.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="ext\log4net.dll" />
-    <Content Include="ext\Microsoft.Scripting.dll" />
-    <Content Include="ext\Newtonsoft.Json.dll" />
-    <Content Include="ext\SuperSocket.Common.dll" />
-    <Content Include="ext\SuperSocket.Dlr.dll" />
-    <Content Include="ext\SuperSocket.Facility.dll" />
-    <Content Include="ext\SuperSocket.ServerManager.dll" />
-    <Content Include="ext\SuperSocket.SocketBase.dll" />
-    <Content Include="ext\SuperSocket.SocketEngine.dll" />
-    <Content Include="ext\SuperSocket.WebSocket.dll" />
-    <Content Include="ext\System.Data.SQLite.dll" />
-    <Content Include="ext\System.Data.SQLite.Linq.dll" />
+    <Content Include="ext\log4net.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ext\Microsoft.Scripting.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ext\Newtonsoft.Json.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ext\SuperSocket.Common.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ext\SuperSocket.Dlr.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ext\SuperSocket.Facility.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ext\SuperSocket.ServerManager.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ext\SuperSocket.SocketBase.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ext\SuperSocket.SocketEngine.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ext\SuperSocket.WebSocket.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ext\System.Data.SQLite.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ext\System.Data.SQLite.Linq.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
