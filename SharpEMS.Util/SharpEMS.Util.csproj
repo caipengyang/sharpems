@@ -43,8 +43,22 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="ext\SqliteORM.dll" />
+    <None Include="ext\Config\log4net.config" />
+    <None Include="ext\Config\log4net.unix.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ext\log4net.dll" />
+    <Content Include="ext\Microsoft.Scripting.dll" />
+    <Content Include="ext\Newtonsoft.Json.dll" />
+    <Content Include="ext\SuperSocket.Common.dll" />
+    <Content Include="ext\SuperSocket.Dlr.dll" />
+    <Content Include="ext\SuperSocket.Facility.dll" />
+    <Content Include="ext\SuperSocket.ServerManager.dll" />
+    <Content Include="ext\SuperSocket.SocketBase.dll" />
+    <Content Include="ext\SuperSocket.SocketEngine.dll" />
+    <Content Include="ext\SuperSocket.WebSocket.dll" />
     <Content Include="ext\System.Data.SQLite.dll" />
+    <Content Include="ext\System.Data.SQLite.Linq.dll" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
