@@ -57,6 +57,7 @@
     <Content Include="ext\Microsoft.Scripting.dll">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="ext\Moq.dll" />
     <Content Include="ext\Newtonsoft.Json.dll">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
