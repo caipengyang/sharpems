@@ -103,13 +103,21 @@ namespace SharpEMS.Net
 			}
 		}
 		
-		protected void InvokeProxyProject(T proxy,MethodRunTimeInfo info)
+		protected void InvokeTarget(T target,MethodRunTimeInfo info)
 		{
-			//info.ReturnValue = proxy.GetType().InvokeMember(info.MethodName,
+			try{
+			info.ReturnValue = target.GetType ().InvokeMember (info.MethodName, System.Reflection.BindingFlags.InvokeMethod | System.Reflection.BindingFlags.Public | System.Reflection.BindingFlags.Instance,
+				null, target, info.Params);
+			}catch(Exception ex) {
+				SharpLog.Instance ().LogErr ("invoke server method occured exception.\nmessage:{0}\nstack trace:{1}", ex.Message, ex.StackTrace);
+			}
 		}
 		
-		public void DeserializeAndInvoke(T instance,byte[] buffer,MethodRunTimeInfo info)
+		public void DeserializeAndInvoke(T target,byte[] buffer,MethodRunTimeInfo info)
 		{
+			Deserialize (buffer, info);
+			InvokeTarget (target, info);
+			SharpLog.Instance ().LogDebug (" invoke server method returned:{0}", info.ReturnValue);
 		}
 		
 	}
