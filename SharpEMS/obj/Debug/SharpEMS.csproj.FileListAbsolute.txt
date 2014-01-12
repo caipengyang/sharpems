@@ -11,3 +11,16 @@ E:\ShartEMS\ShartEMS\obj\Debug\SharpEMS.csproj.GenerateResource.Cache
 E:\ShartEMS\ShartEMS\obj\Debug\ShartEMS.exe
 E:\ShartEMS\ShartEMS\obj\Debug\ShartEMS.pdb
 E:\ShartEMS\ShartEMS\obj\Debug\SharpEMS.csprojResolveAssemblyReference.cache
+D:\Documents\Projects\sharpems\trunk\SharpEMS\bin\Debug\ShartEMS.exe.config
+D:\Documents\Projects\sharpems\trunk\SharpEMS\bin\Debug\ShartEMS.exe
+D:\Documents\Projects\sharpems\trunk\SharpEMS\bin\Debug\ShartEMS.pdb
+D:\Documents\Projects\sharpems\trunk\SharpEMS\obj\Debug\SharpEMS.csprojResolveAssemblyReference.cache
+D:\Documents\Projects\sharpems\trunk\SharpEMS\obj\Debug\MainWindow.baml
+D:\Documents\Projects\sharpems\trunk\SharpEMS\obj\Debug\MainWindow.g.cs
+D:\Documents\Projects\sharpems\trunk\SharpEMS\obj\Debug\App.g.cs
+D:\Documents\Projects\sharpems\trunk\SharpEMS\obj\Debug\ShartEMS_MarkupCompile.cache
+D:\Documents\Projects\sharpems\trunk\SharpEMS\obj\Debug\ShartEMS.g.resources
+D:\Documents\Projects\sharpems\trunk\SharpEMS\obj\Debug\ShartEMS.Properties.Resources.resources
+D:\Documents\Projects\sharpems\trunk\SharpEMS\obj\Debug\SharpEMS.csproj.GenerateResource.Cache
+D:\Documents\Projects\sharpems\trunk\SharpEMS\obj\Debug\ShartEMS.exe
+D:\Documents\Projects\sharpems\trunk\SharpEMS\obj\Debug\ShartEMS.pdb
