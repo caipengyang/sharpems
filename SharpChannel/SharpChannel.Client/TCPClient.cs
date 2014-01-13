@@ -17,9 +17,8 @@ namespace SharpChannel.Client
 			session = new ClientSession(socket);
 		}
 
-		public void SendMessage (string message)
+		public void SendMessage(byte[] buffer)
 		{
-			byte[] buffer = System.Text.ASCIIEncoding.Default.GetBytes (message);
 			session.Send (buffer);
 			buffer = session.Receive (new byte[]{(byte)'$',(byte)'$',(byte)'$',(byte)'$'}, 5000);
 			if (buffer != null) {
@@ -28,6 +27,12 @@ namespace SharpChannel.Client
 			} else {
 				Console.WriteLine("nothing received.");
 			}
+		}
+
+		public void SendMessage (string message)
+		{
+			byte[] buffer = System.Text.ASCIIEncoding.Default.GetBytes (message);
+			this.SendMessage (buffer);
 		}
 	}
 }
