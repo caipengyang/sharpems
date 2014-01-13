@@ -87,19 +87,27 @@ namespace SharpEMS.Net
 			 return System.Text.ASCIIEncoding.Default.GetBytes(sb.ToString());
 		}
 		
-		protected void Deserialize(byte[] buffer,MethodRunTimeInfo info)
+		public void Deserialize(byte[] buffer,MethodRunTimeInfo info,SerType type = SerType.Param)
 		{
 			string packet = System.Text.ASCIIEncoding.Default.GetString(buffer);
 			string[] array = packet.Split(itemSeprator,StringSplitOptions.RemoveEmptyEntries);
 			info.MethodName = array[0];
-			info.Params = new object[array.Length -1];
-			for(int i = 1; i < array.Length ; ++i)
-			{
-				stream.SetLength(0);
-				stream.Seek(9,System.IO.SeekOrigin.Begin);
-				byte[] data = System.Text.ASCIIEncoding.Default.GetBytes(array[i]);
-				stream.Write(data,0,data.Length);
-				info.Params[i-1] = serilizer.Deserialize(stream);
+			if (type != SerType.Result) {
+				info.Params = new object[array.Length - 1];
+				for (int i = 1; i < array.Length; ++i) {
+					stream.SetLength (0);
+					stream.Seek (9, System.IO.SeekOrigin.Begin);
+					byte[] data = System.Text.ASCIIEncoding.Default.GetBytes (array [i]);
+					stream.Write (data, 0, data.Length);
+					info.Params [i - 1] = serilizer.Deserialize (stream);
+				}
+			}
+			if (type != SerType.Param) {
+				stream.SetLength (0);
+				stream.Seek (9, System.IO.SeekOrigin.Begin);
+				byte[] data = System.Text.ASCIIEncoding.Default.GetBytes (array [1]);
+				stream.Write (data, 0, data.Length);
+				info.ReturnValue = serilizer.Deserialize (stream);
 			}
 		}
 		
